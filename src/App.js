@@ -1,9 +1,11 @@
 import './App.css';
-
+import Login from './auth/Login'
+import Register from './auth/Register';
 function App() {
   return (
     <div className="App">
-      <h1>hackbyte</h1>
+      <Login/>
+      {/* <Register/> */}
     </div>
   );
 }
