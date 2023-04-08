@@ -53,21 +53,21 @@ export default function Register() {
                 {/* <input className='inputlogin2' type="password" placeholder='confirm password' onChange={((e)=>setCpassword(e.target.value))}/> */}
                <div className="contain3">
                
-                <div class="form-check">
-                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
-  <label class="form-check-label" for="flexRadioDefault2">
+                <div className="form-check">
+                <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+  <label className="form-check-label" for="flexRadioDefault2">
    Artist
   </label>
   </div>
-  <div class="form-check mx-4">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
-  <label class="form-check-label" for="flexRadioDefault3 ">
+  <div className="form-check mx-4">
+  <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
+  <label className="form-check-label" for="flexRadioDefault3 ">
    Veiwer
   </label>
   </div>
-  <div class="form-check">
-  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" />
-  <label class="form-check-label" for="flexRadioDefault4">
+  <div className="form-check">
+  <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4" />
+  <label className="form-check-label" for="flexRadioDefault4">
    Sponser
   </label>
   </div>

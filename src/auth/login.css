@@ -9,6 +9,7 @@
   background: url('/src/auth/Login3.jpg');
   /* background-repeat: repeat-y; */
   background-size: cover;
+
   /* background-position: center; */
   width: 100vw;
   
@@ -22,6 +23,7 @@
   background: url('/src/auth/REG2.jpg');
   /* background-repeat: repeat-y; */
   background-size: cover;
+  /* background-color: #FFB100; */
   width: 100vw;
 
 }
