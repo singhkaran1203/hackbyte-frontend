@@ -1,6 +1,5 @@
 import React from "react";
-import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from "react-scroll";
+import './Home.css'
 
 const Home = () => {
   return (
@@ -18,17 +17,68 @@ const Home = () => {
           </p>
 
           <div>
-            <Link
-              to="Myevents"
-              smooth
-              duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
             >
-              create a new event 
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-              </span>
-            </Link>
+              Launch demo modal
+            </button>
+
+            <div
+              class="modal fade"
+              id="exampleModal"
+              tabindex="-1"
+              aria-labelledby="exampleModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog ">
+                <div class="modal-content">
+                  <div className="inputOuter">
+                  <div class="innerclass">
+                    <span class="input-group-text my-3">
+                      Description of the event{" "}
+                    </span>
+                    <textarea
+                      class="form-control my-2 textkaran"
+                      aria-label="With textarea"
+                    ></textarea>
+                  </div></div>
+
+                  <div class="modal-body">
+                    <div class="input-group mb-3">
+                      <label class="input-group-text" for="inputGroupFile01">
+                        Image
+                      </label>
+                      <input
+                        type="file"
+                        class="form-control"
+                        id="inputGroupFile01"
+                      />
+                    </div>
+                    <input type="datetime-local" name="datetime"></input>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger"
+                      data-bs-dismiss="modal"
+                      style={{ color: "black" }}
+                    >
+                      Close
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-primary"
+                      style={{ color: "black" }}
+                    >
+                      schedule event
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 

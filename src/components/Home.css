@@ -1,0 +1,14 @@
+.inputOuter{
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: row;
+    justify-content: center;
+
+}
+.innerclass{
+    width: 90%;
+    
+}
+.textkaran{
+    height: 8rem;
+}
