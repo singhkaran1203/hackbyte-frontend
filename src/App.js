@@ -1,3 +1,6 @@
+// import './App.css';
+import Login from './auth/Login'
+import Register from './auth/Register';
 import About from "./components/About";
 import Mytopperformances from "./components/My-top-performances";
 import Home from "./components/Home";
@@ -12,6 +15,8 @@ function App() {
       <About />
       <Myevents />
       <Mytopperformances />
+      <Register></Register>
+      <Login></Login>
     </div>
   );
 }
